@@ -1,7 +1,7 @@
 NAME=atlassian-default-ansible
 LOCAL_TAG=${NAME}:latest
 REPOSITORY=sussch
-VERSION=1
+VERSION=3
 TARGET=${REPOSITORY}/${NAME}:${VERSION}
 
 all: image
